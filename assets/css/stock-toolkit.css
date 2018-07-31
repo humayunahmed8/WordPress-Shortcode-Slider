@@ -1,0 +1,206 @@
+/* ==============
+ *  Common Style
+================= */
+a:hover {
+    text-decoration:  none!important;
+} 
+
+/* ==============
+ * Slides item
+================= */
+
+.theme-single-slide-item {
+    background-size: cover;
+    background-repeat:  no-repeat;
+    background-position:  center;
+    height: 730px;
+    position:  relative;
+    z-index:  1;
+    color: #fff;
+    font-size: 20px;
+    line-height:  31px;
+}
+
+.theme-slide-table {
+    display:  table;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.theme-slide-tablecell {
+    display:  table-cell;
+    vertical-align:  middle;
+}
+
+.theme-single-slide-item h2 {
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.slide-overlay {
+    position:  absolute;
+    height:  100%;
+    width: 100%;
+    left:  0;
+    top:  0;
+    background: #333;
+    opacity:  .5;
+    z-index: 1;
+}
+
+
+/* ==============
+ *  Slide Button
+================= */
+
+.theme-slide-btn {
+    font-size: 30px;
+}
+
+a.filled-btn {-webkit-animation-delay: 1.6s;animation-delay: 1.6s;color: #fff;display: inline-block;font-size: 15px;margin-top: 25px;padding: 13px 0;text-align: center;text-transform: uppercase;width: 170px;overflow: hidden;position: relative;z-index: 1;background: #6fed8d;border-radius: 5px;}
+
+a.filled-btn:after {
+    position: absolute;
+    width: 158%;
+    left: 125px;
+    height: 3px;
+    background: #fff;
+    content: "";
+    border-radius: 24px;
+    top: 0;
+    z-index: -1;
+    -webkit-transform: rotate(-50deg);
+    -ms-transform: rotate(-50deg);
+    transform: rotate(-50deg);
+    -webkit-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+}
+
+a.filled-btn:hover:after {
+    visibility: visible;
+    opacity: .1;
+    height: 474%;
+    left: -90px;
+    top: -83px;
+}
+
+.theme-slide-buttons {
+    margin-top: 30px;
+}
+
+.theme-slide-buttons a {
+    color: #fff;
+    position:  relative;
+}
+
+.bordered-btn:after {
+    position:  absolute;
+    content:  "";
+    height: 8px;
+    width: 40%;
+    background: #fef14a;
+    left:  0;
+    bottom:  0;
+    transition:  0.3s;
+}
+
+.theme-slide-buttons a.bordered-btn:hover{
+     color: #fef14a;
+}
+
+.bordered-btn {
+    padding-bottom: 20px;
+}
+
+a.bordered-btn:hover:after {
+    width:  100%;
+    color: #fff;
+}
+
+
+/* ==============
+ *  Owl Nav icon
+================= */
+
+.theme-slides:hover .owl-nav div {
+    visibility:  visible;
+    opacity:  1;
+}
+
+.theme-slides .owl-nav div {
+    position: absolute;
+    z-index:  1;
+    height:  60px;
+    width:  60px;
+    /* background:  #fff; */
+    left:  50px;
+    top:  50%;
+    text-align:  center;
+    line-height:  60px;
+    font-size:  30px;
+    border-radius:  50%;
+    opacity:  0;
+    visibility:  hidden;
+    transition:  .3s;
+}
+
+.theme-slides .owl-nav div:after {
+    position:  absolute;
+    content:  "";
+    height:  100%;
+    width:  100%;
+    background:  #fff;
+    left:  0;
+    top:  0;
+    opacity: .5;
+    z-index:  -1;
+    border-radius: 50%;
+}
+
+.theme-slides .owl-nav div.owl-next {
+    left:  auto;
+    right:  50px;
+}
+
+.theme-slides .owl-nav div i {
+    background:  #fff;
+    margin: 5px;
+    height:  50px;
+    display:  block;
+    width:  50px;
+    line-height:  50px;
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.theme-slides .owl-nav div:hover i.fa {background: #278cc1;color:  #fff;}
+
+/* ==============
+ *  Owl dots
+================= */
+
+.theme-slides .owl-dots {
+    position:  absolute;
+    bottom: 30px;
+    left: 50px;
+}
+
+.theme-slides .owl-dots .owl-dot {
+    background: aliceblue;
+    height: 5px;
+    width: 35px;
+    margin: 10px;
+    display:  inline-block;
+    border-radius: 3px;
+}
+
+.theme-slides .owl-dots .owl-dot.actiove {
+    background:  red;
+}
+
+.theme-slides .owl-dots .owl-dot.active {
+    background: red;
+}
