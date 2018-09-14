@@ -22,7 +22,7 @@ Inspired by the [Rasel Ahmed](https://www.facebook.com/raselahmed7).
 * Slide Loop
 * Different Overlay in Different Slides
 * Cutom Slider Text & Content
-* Different Button in Differnt Slides
+* Different Button in Different Slides
 * Customisable Slider Opacity Percentage
 * Input Custom Pages or External Link in Slides Button
 
